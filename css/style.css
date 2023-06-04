@@ -1,0 +1,65 @@
+
+/* header */
+
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+}
+
+/* clock */
+.datetime{
+    color: #fff;
+    width: 300px;
+}
+
+.date{
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.time{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item span:not(:last-child){
+    margin: 0 6px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.time span:last-child{
+    font-size: 15px;
+}
+
+/* main */
+#main{
+    margin-top: 100px;
+}
+#main-img{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 100%;
+}
+
+/* form & media */
+video{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+/* footer */
+footer{
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+i{
+    font-size: 3rem;
+}
